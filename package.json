@@ -1,0 +1,9 @@
+{
+  "name": "Unipinhal_website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ArthurPedroti/Unipinhal_website.git",
+  "author": "Arthur Pedroti <arthurpedroti@gmail.com>",
+  "license": "MIT",
+  "dependencies": {}
+}
