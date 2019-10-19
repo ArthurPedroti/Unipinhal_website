@@ -16,8 +16,8 @@ body {
 }
 
 .hmain {
-  width: 1000px;
-  /* max-width: 1000px; */
+  max-width: 1000px;
+  display: flex;
   margin: auto;
 }
 
@@ -25,7 +25,7 @@ body {
   background-color: #fff;
   width: 260px;
   height: 140px;
-  position: absolute;
+  position: relative;
 }
 
 .logo img {
@@ -53,6 +53,31 @@ body {
   justify-content: flex-end;
   margin-top: 25px;
 }
+
+@media (max-width:1000px){
+  .logo {
+    display: none;
+  }
+
+  .header {
+    max-height: 600px;
+  }
+
+  .redessociais {
+    display: flex;
+    margin: auto;
+    text-align: center;
+  }
+
+  .redessociais ul {
+    display: block;
+  }
+
+  .redessociais ul li {
+    margin-top: 30px;
+  }
+}
+
 
 .redessociais ul li {
   margin-left: 10px;
