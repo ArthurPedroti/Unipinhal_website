@@ -54,7 +54,7 @@ body {
   margin-top: 25px;
 }
 
-@media (max-width:1000px){
+@media (max-width: 1000px) {
   .logo {
     display: none;
   }
@@ -78,7 +78,6 @@ body {
   }
 }
 
-
 .redessociais ul li {
   margin-left: 10px;
 }
@@ -99,8 +98,8 @@ body {
   text-align: center;
   color: #fff;
   padding: 6px 12px;
-  background-color: #01B1AF;
-  box-shadow: 4px 4px 6px 0px rgba(0,0,0,0.8);
+  background-color: #01b1af;
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.8);
   border: solid rgba(0, 108, 109, 1) 0px;
   transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
 }
@@ -130,6 +129,9 @@ ul.nav li a {
   font-size: 12px;
 }
 
+.main {
+  background-color: #fff;
+}
 .caroussel {
   width: 100%;
   height: 680px;
@@ -141,7 +143,7 @@ ul.nav li a {
 .contend1 {
   display: flex;
   max-width: 1000px;
-  margin: auto; 
+  margin: auto;
   transform: translateY(-30px);
   text-align: center;
 }
@@ -149,7 +151,7 @@ ul.nav li a {
 .contend1-1 {
   max-width: 500px;
   max-height: 750px;
-  background-color: #FFF;
+  background-color: #fff;
   padding: 50px;
 }
 
@@ -167,7 +169,7 @@ ul.nav li a {
   text-align: left;
 }
 
-@media (max-width:1000px) {
+@media (max-width: 1000px) {
 }
 
 .bv {
@@ -193,9 +195,9 @@ ul.nav li a {
   max-width: 100%;
   text-align: left;
   width: 500px;
-  height: 750px;
+  max-height: 750px;
   background-color: rgba(52, 63, 100, 1);
-  color: #FFF;
+  color: #fff;
   padding: 50px;
 }
 
@@ -211,14 +213,311 @@ ul.nav li a {
 .contend1-2 .contend h3 {
   font-size: 16px;
   font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contend1-2 .contend h2 {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .contend1-2 .contend p {
   font-size: 13px;
-  color: #D3D3D3;
+  letter-spacing: 0.8px;
+  line-height: 1.3;
+  color: #d3d3d3;
   margin: 0;
+  text-align: justify;
 }
 
 .contend1-2 .contend button {
+  font-size: 14px;
+  text-align: center;
+  width: 140px;
+  height: 30px;
+  border-radius: 0;
+  background-color: rgba(233, 219, 137, 1);
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.8);
+  border: solid rgba(0, 108, 109, 1) 0px;
+  color: black;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
 
+.contend1-2 .contend button:hover {
+  background-color: rgba(233, 219, 137, 0.7);
+  color: black;
+  white-space: nowrap;
+  transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+.webradio {
+  display: block;
+}
+
+.webradio .linha {
+  width: 100%;
+  min-height: 25px;
+  background-color: lightgray;
+}
+
+.webradio .logos {
+  text-align: center;
+  margin: auto;
+  background-color: white;
+  max-height: 200px;
+}
+
+.webradio .logos img {
+  height: 200px;
+}
+
+.apoio {
+  width: 100%;
+  height: 400px;
+  background-image: url(img/home-apoioaluno.jpg);
+  background-size: 100%;
+}
+
+.apoio .contend {
+  width: 1000px;
+  height: 360px;
+  padding: 0 20px;
+  display: flex;
+  margin: auto;
+}
+
+.apoio .contend .text {
+  max-width: calc(35% - 20px);
+  margin-top: 20px;
+  height: 100%;
+  float: left;
+  padding-right: 20px;
+}
+
+.apoio .contend .text img {
+  width: 125px;
+}
+.apoio .contend .text h1 {
+  width: 100%;
+  height: 120px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.apoio .contend .text p {
+  width: 100%;
+  height: 100px;
+  font-size: 15px;
+  color: white;
+  text-align: justify;
+}
+
+.apoio .contend .line {
+  width: 2px;
+  height: 80%;
+  background-color: white;
+  margin: 52.5px 55px 0px 35px;
+  float: left;
+}
+
+.apoio .contend .carrousel {
+  max-width: calc(100% - 37px);
+  margin-top: 35px;
+  max-height: 500px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+  float: left;
+}
+
+.blog {
+  display: flex;
+  width: 100%;
+  width: 1000px;
+  margin: auto;
+}
+
+.blog .posts {
+  display: block;
+  margin: 0 50px 0 0;
+}
+
+.blog .posts .p1 {
+  max-height: 459px;
+  max-width: 548px;
+  margin: 30px 0 0 0;
+  padding: 20px 40px;
+  background-color: #fff;
+}
+
+.blog .posts h1 {
+  color: rgba(52, 63, 100, 1);
+  cursor: pointer;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.blog .posts h2 {
+  color: rgba(52, 63, 100, 1);
+  font-size: 13px;
+}
+
+.blog .posts p {
+  color: rgba(52, 63, 100, 1);
+  margin-top: 15px;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.blog .posts .img1 {
+  width: 100%;
+  height: 250px;
+  margin-top: 20px;
+  background-image: url(./img/post1.jpg);
+  background-size: cover;
+}
+
+.blog .posts .img2 {
+  width: 100%;
+  height: 250px;
+  margin-top: 20px;
+  background-image: url(./img/post2.jpg);
+  background-size: cover;
+}
+
+.blog .posts button {
+  font-size: 14px;
+  text-align: center;
+  width: 140px;
+  height: 30px;
+  border-radius: 0;
+  background-color: rgba(233, 219, 137, 1);
+  box-shadow: 4px 4px 6px 0px rgba(0, 0, 0, 0.8);
+  border: solid rgba(0, 108, 109, 1) 0px;
+  color: black;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+.blog .posts button:hover {
+  background-color: rgba(233, 219, 137, 0.7);
+  color: black;
+  white-space: nowrap;
+  transition: color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+.blog .posts .p2 {
+  max-height: 471px;
+  max-width: 548px;
+  margin: 30px 0 0 0;
+  padding: 20px 40px;
+  background-color: #fff;
+}
+
+.blog .outros {
+  display: block;
+}
+
+.blog .outros .news {
+  height: 500px;
+  width: 400px;
+  margin: 30px 0 0 0;
+  text-align: center;
+  background-color: rgba(52, 63, 100, 1);
+}
+
+.blog .outros .news h1 {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
+.blog .outros .news p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #fff;
+}
+
+.blog .outros .news .adesivo {
+  width: 90%;
+  height: 200px;
+  margin: auto;
+  margin-top: 40px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(250, 250, 250, 0.3) 10%,
+    rgba(0, 0, 0, 0.2)
+  );
+}
+
+.blog .outros .news .adesivo img {
+  transform: translateY(-20px);
+}
+
+.blog .outros .news .adesivo input {
+  width: 322px;
+  margin-top: 10px;
+  height: 36px;
+  background: #fcfcfc;
+  padding: 1px 0;
+}
+
+input::placeholder {
+  padding-left: 30px;
+}
+
+.blog .outros .news .adesivo button {
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px;
+  border: none;
+  color: rgba(52, 63, 100, 1);
+  font-size: 16px;
+  line-height: 36px;
+  padding: 0 24px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.blog .outros .inst {
+  display: block;
+  text-align: center;
+  height: 400px;
+  max-width: 400px;
+  margin: 30px 0 0 0;
+  background-color: #fff;
+  color: rgba(52, 63, 100, 1);
+}
+
+.blog .outros .inst h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 50px 60px 0 60px;
+}
+
+.blog .outros .inst p {
+  margin-top: 30px;
+  font-size: 15px;
+  line-height: 1.7;
+  padding: 0px 70px 0 70px;
+}
+
+.blog .outros .inst img {
+  margin-top: 30px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.blog .outros .inst h5 {
+  font-size: 13px;
+  font-weight: 100;
 }
