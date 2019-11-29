@@ -1,0 +1,86 @@
+body {
+  background: #fff;
+}
+
+.main img {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.main .comissoes {
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.main .comissoes h1 {
+  width: 100%;
+  height: 80px;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(52, 63, 100, 1);
+}
+
+.main .comissoes h2 {
+  width: 100%;
+  height: 30px;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 20px;
+  text-align: left;
+  color: rgba(52, 63, 100, 1);
+  margin-bottom: 30px;
+}
+
+.main .comissoes .content {
+  display: flex;
+  text-align: left;
+}
+
+.main .comissoes img {
+  width: 368px;
+  height: auto;
+  margin-bottom: 39px;
+}
+
+.main .comissoes a {
+  font-size: 22px;
+  color: rgba(52, 63, 100, 1);
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.main .comissoes h3 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 14px;
+  margin: -5px 0 20px 0;
+}
+
+.main .comissoes h4 {
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.main .comissoes .content .imgs {
+  min-width: 500px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.main .comissoes .content .text {
+  padding: 0px 20px 0 20px;
+}
+
+.main .comissoes .content .text p {
+  line-height: 1.5;
+  font-size: 14px;
+  text-align: justify;
+  margin-top: -3px;
+  margin-bottom: 18px;
+  color: #343f64;
+}
